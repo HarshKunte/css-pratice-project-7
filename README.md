@@ -7,7 +7,7 @@
 - Positoning of elements
 - Using SVGs
 
-## Go check it out live👉[here](https://developers-home.netlify.app/)
+## Go check it out live👉[here](https://headphone-brand.netlify.app/)
 ---
 ### This is how it looks 👀
 ![Preview](./output.png)
