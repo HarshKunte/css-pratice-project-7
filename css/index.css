@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+nav{
+    padding: 4rem 4rem 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li,button{
+    cursor: pointer;
+}
+.logo{
+    width: 110px;
+    height: 40px;
+    margin-right: 50px;
+}
+.actions{
+    width: 140px;
+    height: 20px;
+}
+.nav-items{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.nav-item{
+    font-size: 1.2rem;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+.active-item{
+    color: #fe5e35;
+    font-weight: 600;
+}
+.intro-section{
+    padding: 0 4rem;
+    display: flex;
+}
+.left-section{
+    padding-top: 4rem;
+    width: 60%;
+}
+.left-section>h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.left-section>h3>img{
+    width: 50px;
+}
+.left-section>h1{
+    font-size: 5rem;
+    font-family: "Fredoka One";
+    font-weight: 500;
+}
+.sub-headlines{
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.sub-headline{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.sub-headline>img{
+    background-color: #fe5e35;
+    width: 28px;
+    height: 28px;
+    padding: 0.3rem;
+    border-radius: 1rem;
+}
+.left-section .text{
+    font-size: 0.9rem;
+    color: rgb(177, 175, 175);
+    margin-bottom: 2rem;
+    width: 80%;
+}
+.action-btn{
+    padding: 0.9rem 2rem;
+    border-radius: 2.5rem;
+    background-color: #fe5e35;
+    font-size: 1.1rem;
+    color: #fff;
+    border: none;
+    margin-right: 1rem;
+}
+.right-section{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+}
+.discount{
+    position: absolute;
+    bottom: 4rem;
+    left: -2rem;
+    width: 9rem;
+    height: 9rem;
+}
+.discount-content{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    bottom: 6rem;
+    left: 0.4rem;
+}
+.discount-content>h4{
+    font-size: 0.8rem;
+}
+.discount-content>h1{
+    font-family: "Fredoka One";
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.headphone-div{
+    position: relative;
+    /* width: 100%; */
+}
+.headphone{
+    width: 28rem;
+    height: 28rem;
+}
+
+.dots{
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+.dot{
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+}
+.yellow-dot{
+    background-color: #fbd104;
+}
+.tomato-dot{
+    background-color: #fe5e35;
+}
+.black-dot{
+    background-color: #000;
+}
+.right-section .action-btn{
+    margin-right: 0;
+}
