@@ -40,6 +40,7 @@ li,button{
 .intro-section{
     padding: 0 4rem;
     display: flex;
+    flex-wrap: wrap;
 }
 .left-section{
     padding-top: 4rem;
@@ -151,3 +152,113 @@ li,button{
 .right-section .action-btn{
     margin-right: 0;
 }
+
+
+
+@media screen and (max-width:768px){
+    nav{
+        padding: 2rem 2rem 1rem 2rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo{
+        margin-right: 0;
+    }
+    .nav-items{
+        gap: 2rem;
+    }
+    .left-section{
+        width: 100%;
+        display: flex;
+        padding-top: 2rem;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .intro-section{
+        padding: 0 2rem;
+    }
+    .left-section>h1{
+        font-size: 6rem;
+    }
+    .right-section{
+        width: 100%;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width:680px){
+    nav{
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 1rem;
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width:480px){
+
+    .left-section>h1{
+        font-size: 4rem;
+    }
+    .left-section>h3{
+        font-size:1.5rem;
+    }
+    .sub-headlines{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-headline{
+        font-size: 1rem;
+    }
+    .sub-headline>img{
+        width: 24px;
+        height: 24px;
+    }
+    .action-btn{
+        margin-bottom: 1rem;
+    }
+    .headphone{
+        width: 22rem;
+        height: 22rem;
+        margin-left: 1rem;
+    }
+    .right-section{
+        align-items: center;
+    }
+    .discount{
+        width: 7rem;
+        height: 7rem;
+        left: 0;
+    }
+    .discount-content>h1{
+        font-size: 2rem;
+    }
+    .discount-content{
+        left: 1.5rem;
+        bottom: 5.5rem;
+    }
+  }
+
+  @media screen and (max-width:320px){
+    .nav-items{
+        gap: 1rem;
+    }
+    .nav-item{
+        font-size: 1rem;
+    }
+    .left-section>h1{
+        font-size: 3rem;
+    }
+    .left-section>h3{
+        font-size: 1.3rem;
+    }
+    .headphone{
+        width: 18rem;
+        height: 18rem;
+    }
+    .action-btn{
+        padding: 0.5rem 1rem;
+    }
+  }
